@@ -1,0 +1,214 @@
+@import url("./fonts.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "roboto", sans-serif;
+
+}
+
+.header {
+    background: #322E41;
+
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__wrap {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+}
+
+.menu {
+    display: flex;
+    color: white;
+}
+
+
+.menu__list {
+    list-style: none;
+    /* Убирает маркер */
+    padding: 23px 14px;
+    /* внутрений отступ 23px вертикаль   14px горизонталь*/
+    cursor: pointer;
+    /* изменение курсора */
+    transition: 0.5s;
+    /* плавность перехода */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.menu__list:hover {
+    color: #D47300;
+    background: white;
+}
+
+
+.banner {
+    background: url("./img/banner.png") no-repeat;
+    background-size: cover;
+    width: 100%;
+
+    color: white;
+}
+
+.banner__wrap {
+    flex-direction: column;
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__wrap h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 59px;
+}
+
+.banner__wrap p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.cards {
+    background: #707070
+}
+
+.big__card {
+    background: white;
+    width: 540px;
+    height: 467px;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.big__card_body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.big__card_h3 {
+    padding: 20px 0 10px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.card {
+    width: 225px;
+    padding: 15px;
+    background: white;
+    border-radius: 6px;
+}
+
+.card__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards__wrap {
+    position: relative;
+    top: -50px;
+    display: flex;
+    gap: 30px;
+}
+
+.small__cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.card__body_h3 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 6px;
+    padding: 12px 0;
+}
+
+.card__body_p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #9B9B9B;
+}
+
+.footer {
+    background: #322E41;
+}
+
+.footer__wrap {
+    display: flex;
+    justify-content: space-between;
+    height: 260px;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input {
+    width: 350px;
+    height: 34px;
+    border-radius: 6px;
+}
+.btn{
+    background: #544294;
+    border-radius: 6px;
+    padding: 6px 135px;
+}
+.textarea {
+    resize: none;
+    width: 350px;
+    height: 86px;
+    border-radius: 6px;
+}
+
+
+.foot{
+    width: 220px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    list-style: none;
+    color: white;
+    gap: 10px;
+}
+.foot__list{
+    transition: 0.3s;
+}
+
+.foot__list:hover{
+    color: #D47300;
+    
+}
+
